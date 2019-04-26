@@ -19,7 +19,8 @@
 		<div class="masonry">
 			<?php
 				$arg = array(
-					'posts_per_page' => -1
+					'posts_per_page' => -1 ,
+					'order' => 'ASC'
 				);
 
 				$get_arg = new WP_Query( $arg );
